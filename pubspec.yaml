@@ -1,0 +1,46 @@
+name: student
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^14.4.1
+  flutter_screenutil: ^5.9.3
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.12
+  awesome_extensions: ^2.0.19
+  dart_std: ^0.0.7
+  flutter_gradient_button: ^0.0.1
+  gradient_borders: ^1.0.1
+  animated_custom_dropdown: ^3.1.1
+
+  cupertino_icons: ^1.0.8
+  dart_either: ^2.0.0
+  dio: ^5.7.0
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  loader_overlay: ^4.0.3
+  form_validator: ^2.1.1
+  uuid: ^4.5.1
+  image_pickers: ^2.0.5+2
+  hl_image_picker: ^1.2.16
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svgs/
